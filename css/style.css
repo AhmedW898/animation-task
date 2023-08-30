@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+    background: linear-gradient(black, rgb(59, 165, 59));
+}
+.title{
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: antiquewhite;
+    text-shadow:2px 2px 4px chocolate;
+}
+.div1{
+    margin-top: 40px;
+    width: 280px;
+    height:180px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    animation-name: change;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+    
+}
+.im1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+@keyframes change{
+    0%{left: 100px; }
+    100%{left: 1000px;
+       transform: rotate(720deg);} 
+    
+}
+
+/* ====================== */
+.div2{
+    width: 280px;
+    height:180px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    animation-name: change1;
+    animation-duration: 3s; 
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    margin-left: auto;
+   
+    
+    
+}
+.im2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+@keyframes change1{
+    0%{right: 100px; }
+    100%{right: 1000px;
+       transform: rotate(720deg);} 
+    
+}
+/* ============================= */
+
+.div3{
+    width: 280px;
+    height:180px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    animation-name: change2;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 6s;
+    
+}
+.im3{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+@keyframes change2{
+    0%{left: 100px; }
+    100%{left: 1000px;
+       transform: rotate(720deg);} 
+    
+}
+/* ============================== */
+
+.div4{
+    width: 280px;
+    height:180px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    animation-name: change3;
+    animation-duration: 3s; 
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    margin-left: auto;
+    animation-delay: 9s;
+   
+    
+    
+}
+.im4{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+@keyframes change3{
+    0%{right: 100px; }
+    100%{right: 1000px;
+       transform: rotate(720deg);} 
+    
+}
+/* ================================== */
+.div5{
+    width: 280px;
+    height:180px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    animation-name: change4;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    animation-delay: 12s;
+    
+}
+.im5{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+@keyframes change4{
+    0%{left: 100px; }
+    100%{left: 1000px;
+       transform: rotate(720deg);} 
+    
+}
+/* ========================= */
+.div6{
+    width: 280px;
+    height:180px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: relative;
+    animation-name: change5;
+    animation-duration: 3s; 
+    animation-fill-mode: forwards;
+    animation-delay: 3s;
+    margin-left: auto;
+    animation-delay: 15s;
+   
+    
+    
+}
+.im6{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+@keyframes change5{
+    0%{right: 100px; }
+    100%{right: 1000px;
+       transform: rotate(720deg);} 
+    
+}
+
